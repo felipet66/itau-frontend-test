@@ -26,15 +26,15 @@ const router = new Router({
     // MAIN LAYOUT ROUTES
     // =============================================================================
             path: '',
-            component: () => import('./layouts/main/Main.vue'),
+            component: () => import('./views/pages/Login.vue'),
             children: [
         // =============================================================================
         // Theme Routes
         // =============================================================================
               {
                 path: '/',
-                name: 'login',
-                component: () => import('./views/pages/Login.vue')
+                name: 'home',
+                component: () => import('./views/Home.vue')
               },
               {
                 path: '/page2',
