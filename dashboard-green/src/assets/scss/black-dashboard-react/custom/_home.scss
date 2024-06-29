@@ -1,0 +1,44 @@
+.history-results {
+    >span {
+        margin-left: 5px;
+    }
+
+    margin-inline: 5px
+}
+
+.vela-results {
+    margin-inline: 3px;
+    text-align: center;
+    color: white;
+}
+
+.odd-method-select {
+    margin-right: 10px;
+}
+
+.card-table {
+    height: 400px;
+    overflow: auto!important;
+}
+
+.aviator-content {
+    position: relative;
+    margin-bottom: 16px;
+
+    .loading-puff {
+        position: absolute;
+        top: 82px;
+        left: 100px;
+    }
+
+    .odd-aviator {
+        position: absolute;
+        top: 91px;
+        left: 82px;
+        font-weight: bold;
+    }
+}
+
+.bg-blue {
+    background-color: #1d8cf8 !important;
+}

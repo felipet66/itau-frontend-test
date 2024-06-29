@@ -1,0 +1,60 @@
+{
+  "name": "dashboard-green",
+  "version": "1.2.1",
+  "private": true,
+  "homepage": "/dashboard-green",
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "@tanstack/react-query": "^4.36.1",
+    "@fortawesome/fontawesome-free": "6.1.1",
+    "axios": "^1.4.0",
+    "bootstrap": "4.5.3",
+    "chart.js": "^3.4.1",
+    "react-chartjs-2": "^3.0.4",
+    "classnames": "2.3.1",
+    "logrocket": "^4.0.4",
+    "moment": "^2.29.4",
+    "perfect-scrollbar": "1.5.5",
+    "prop-types": "15.8.1",
+    "react-input-mask": "^2.0.4",
+    "react-loader-spinner": "^5.3.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1",
+    "react-switch": "^7.0.0",
+    "reactstrap": "8.7.1",
+    "sass": "1.53.0",
+    "telegram-bot-sdk": "^0.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-scss": "sass src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.css",
+    "minify-scss": "sass src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.min.css --style compressed"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "optionalDependencies": {
+    "eslint-plugin-flowtype": "8.0.3",
+    "jquery": "3.6.0",
+    "typescript": "4.7.4"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9"
+  }
+}
