@@ -1,6 +1,9 @@
 [build]
-  publish = "build"
+  publish = "dist/itau-frontend-test"
   command = "CI= npm run build"
 
 [build.environment]
   NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-angular"
