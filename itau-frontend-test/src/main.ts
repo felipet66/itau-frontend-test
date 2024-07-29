@@ -8,7 +8,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient } from '@angular/common/http';
 import { AppComponent } from './app/app.component';
 import { routes } from './app/app.routes';
-import { Interceptor } from './app/core/shared/interceptors/interceptor.interceptor'; // Certifique-se que o caminho está correto
+import { Interceptor } from './app/shared/interceptors/interceptor.interceptor'; // Certifique-se que o caminho está correto
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');

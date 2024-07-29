@@ -7,7 +7,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
-import { BusinessService, IBusiness } from '../../shared/services/business/business.service';
+import { BusinessService } from '../../shared/services/business/business.service';
+import IBusiness from '../../shared/models/business/business.model';
 import { LocationService } from '../../shared/services/location/location.service';
 import Swal from 'sweetalert2';
 

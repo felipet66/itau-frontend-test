@@ -2,15 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of, map } from 'rxjs';
 
-export interface IBusiness {
-  id: number;
-  name: string;
-  business: string;
-  valuation: string;
-  active: boolean;
-  cep: string;
-  cnpj: string;
-}
+import IBusiness from '../../models/business/business.model';
 
 @Injectable({
   providedIn: 'root'
